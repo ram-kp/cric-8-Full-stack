@@ -41,7 +41,7 @@ const PostDetails = () => {
 	          <Typography variant="body1">{moment(post.createdAt).fromNow()}</Typography>
 	          <Divider style={{ margin: '20px 0' }} />
 	          	<Typography  variant="body1"><strong>
-	          	<a href= {"https://en.wikipedia.org/wiki/"+ post.FullName} style={{cursor:'pointer'}}>
+	          	<a href= {"https://en.wikipedia.org/wiki/"+ post.FullName} style={{cursor:'pointer'}} target="_blank">
 	          		check full stats ...
 				</a>
 	          	</strong></Typography>

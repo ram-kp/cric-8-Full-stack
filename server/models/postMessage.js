@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-
 const postSchema = mongoose.Schema( {
 	name : String,
 	creator: String,
@@ -18,7 +17,5 @@ const postSchema = mongoose.Schema( {
 		default: new Date()
 	}
 } )
-
 const PostMessage = mongoose.model('PostMessage', postSchema);
-
 export default PostMessage;
